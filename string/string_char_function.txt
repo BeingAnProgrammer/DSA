@@ -1,0 +1,33 @@
+#
+for string 
+
+getling :to get a line ("my name is nites" not just "nitesh")
+size() or length(): to find length of string
+
+#
+for char
+
+strlen("char name"): will give you the length of char
+strcmp(s1,s2):comparing btw 2 string = gives !=0 is not equal s1&2 OR  =0 is s1&2 equal
+strcpy(destination string,source string):copy one string into another string
+
+for (char c : str): this loop will run character by character from the staring of the string str to the end of the string str
+
+
+#
+string replaceSpaceWithAt40(const string& str) {
+    string result;
+    for (char c : str) {
+        if (c == ' ') {
+            result += "@40";
+        } else {
+            result += c;
+        }
+    }
+    return result;
+}
+
+
+#
+range-based for loop to iterate through the characters of a string:      erase()
+stingName.erase(starting index, No of char that you wann delete)
